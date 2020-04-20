@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="1800">
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%l - %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <root level="debug" includeLocation="true">
+            <appender-ref ref="console" />
+        </root>
+    </Loggers>
+</Configuration>
